@@ -6,6 +6,14 @@ Focused on building clean, reliable, and scalable server-side applications.
 
 ---
 
+## Tech Stack
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+
+---
+
 ## Stats:
 ![](https://github-readme-stats.vercel.app/api?username=argnta&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=argnta&theme=shadow_green&hide_border=false)<br/>
@@ -16,14 +24,6 @@ Focused on building clean, reliable, and scalable server-side applications.
 
 ### Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=argnta&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
----
-
-## Tech Stack
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 
 ---
 
