@@ -6,6 +6,19 @@ Focused on building clean, reliable, and scalable server-side applications.
 
 ---
 
+## Stats:
+![](https://github-readme-stats.vercel.app/api?username=argnta&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=argnta&theme=shadow_green&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=argnta&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+
+
+---
+
+### Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=argnta&limit=5&theme=dark&combine_all_yearly_contributions=true)
+
+---
+
 ## Tech Stack
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
