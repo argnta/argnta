@@ -14,11 +14,11 @@
 
 ## Summary
 
-Backend engineer specializing in Go, with a strong interest in system design, performance, and security. My work focuses on services that separate concerns, process work concurrently, and fail gracefully under load. These are systems where the HTTP handler never blocks on business logic, where work is distributed through bounded queues, and where failure modes are documented rather than hidden behind optimistic defaults.
+Backend developer working primarily in Go. I build small, focused services to understand how production systems are put together: HTTP handlers that hand work off to worker pools instead of blocking, event pipelines with retry and dead-letter handling, API-key authentication with rate-limited access, and redirect inspection using only the standard library.
 
-My public repositories center on four themes: asynchronous worker pools with buffered channels; event-driven pipelines with retry and dead-letter handling; API-key authentication with time-window rate limiting and mutex-guarded shared state; and HTTP inspection tooling built on the Go standard library. Each project is scoped deliberately as a well-understood subset of a production pattern, implemented with explicit limitations and a documented path toward production readiness, such as Redis for rate-limit state, encryption for stored credentials, and persistent queues for dispatch.
+Each repository is a deliberately small implementation of one pattern. None of them are production systems, and the READMEs say so: where a component is in-memory, unauthenticated, or unencrypted, the README notes it and describes what would change for a real deployment, such as Redis for shared rate-limit state, encryption for stored credentials, or a persistent queue instead of an in-process channel.
 
-Alongside backend work, I use Python for classical machine learning on text, including sentiment classification with TF-IDF and Logistic Regression, topic modeling with LDA, and integrations such as ESC/POS thermal printing and public geocoding and weather APIs. The common thread across all of this is consistent: build the thing, understand the trade-offs, and leave behind a README that explains both.
+Alongside Go, I use Python for classical machine learning on text (sentiment classification with TF-IDF and Logistic Regression, topic modeling with LDA) and for small integrations such as ESC/POS thermal printing and public geocoding and weather APIs. The common thread is the same in every repository: build a working version, note the trade-offs, and document both in the README.
 
 ---
 
@@ -78,20 +78,20 @@ Alongside backend work, I use Python for classical machine learning on text, inc
       </a>
     </td>
     <td width="50%" align="center">
-      <a href="https://github.com/argnta/redirect-stopper">
+      <a href="https://github.com/argnta/goqrshare">
         <picture>
-          <source media="(prefers-color-scheme: dark)"  srcset="https://github-stats-extended.vercel.app/api/pin/?username=argnta&repo=redirect-stopper&theme=tokyonight&hide_border=true" />
-          <img alt="redirect-stopper" src="https://github-stats-extended.vercel.app/api/pin/?username=argnta&repo=redirect-stopper&theme=default&hide_border=true" />
+          <source media="(prefers-color-scheme: dark)"  srcset="https://github-stats-extended.vercel.app/api/pin/?username=argnta&repo=goqrshare&theme=tokyonight&hide_border=true" />
+          <img alt="goqrshare" src="https://github-stats-extended.vercel.app/api/pin/?username=argnta&repo=goqrshare&theme=default&hide_border=true" />
         </picture>
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <a href="https://github.com/argnta/Simple-Ticketing-System">
+      <a href="https://github.com/argnta/Automated-News-Categorizer-LDA">
         <picture>
-          <source media="(prefers-color-scheme: dark)"  srcset="https://github-stats-extended.vercel.app/api/pin/?username=argnta&repo=Simple-Ticketing-System&theme=tokyonight&hide_border=true" />
-          <img alt="Simple-Ticketing-System" src="https://github-stats-extended.vercel.app/api/pin/?username=argnta&repo=Simple-Ticketing-System&theme=default&hide_border=true" />
+          <source media="(prefers-color-scheme: dark)"  srcset="https://github-stats-extended.vercel.app/api/pin/?username=argnta&repo=Automated-News-Categorizer-LDA&theme=tokyonight&hide_border=true" />
+          <img alt="Automated-News-Categorizer-LDA" src="https://github-stats-extended.vercel.app/api/pin/?username=argnta&repo=Automated-News-Categorizer-LDA&theme=default&hide_border=true" />
         </picture>
       </a>
     </td>
@@ -135,6 +135,7 @@ Alongside backend work, I use Python for classical machine learning on text, inc
 - **Concurrency in Go.** [Async-Feedback-Service](https://github.com/argnta/Async-Feedback-Service): buffered channel and worker pool. [Event-Driven-Notification-Service](https://github.com/argnta/Event-Driven-Notification-Service): parallel workers over an event queue.
 - **Resilience patterns.** Retry logic and dead-letter queue in Event-Driven-Notification-Service.
 - **API authentication and rate limiting.** [API-Rated-Limiter](https://github.com/argnta/API-Rated-Limiter): `X-API-Key` validation, time-window limits, HTTP 429 responses, mutex-guarded store.
+- **Network tooling in Go.** [goqrshare](https://github.com/argnta/goqrshare): CLI for same-network file transfer with a QR-code handoff and built-in HTTPS.
 - **HTTP and security tooling.** [redirect-stopper](https://github.com/argnta/redirect-stopper): redirect tracing with status, Content-Type, and protocol version using only the standard library.
 - **Third-party API integration.** [justweather](https://github.com/argnta/justweather): Nominatim geocoding and Open-Meteo forecasts with timeout and fallback handling.
 - **Hardware integration.** [Simple-Ticketing-System](https://github.com/argnta/Simple-Ticketing-System): USB thermal printing through ESC/POS.
