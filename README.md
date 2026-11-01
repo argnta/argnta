@@ -1,6 +1,6 @@
 <div align="center">
 
-# Raditya Arganta
+# Raditya Arganta Anantio
 
 **Backend Engineer** · Go · Concurrency · API Design · Security
 
@@ -22,11 +22,16 @@ Alongside backend work, I use Python for classical machine learning on text, inc
 
 ---
 
+## Language Profile
+
 <div align="center">
 
-![Contribution Bonsai](output/bonsai-growth.gif)
-
-*Contribution history rendered as a growing bonsai.*
+<a href="https://github.com/stats-organization/github-stats-extended">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=argnta&layout=compact&card_width=495&hide_border=true&langs_count=6&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
+    <img alt="Language distribution across repositories" src="https://github-stats-extended.vercel.app/api/top-langs/?username=argnta&layout=compact&card_width=495&hide_border=true&langs_count=6" />
+  </picture>
+</a>
 
 </div>
 
@@ -147,23 +152,12 @@ Alongside backend work, I use Python for classical machine learning on text, inc
 
 ---
 
-## Activity
+## Contribution
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://streak-stats.demolab.com?user=argnta&theme=github-dark-blue&hide_border=true" />
-  <img alt="Contribution streak" src="https://streak-stats.demolab.com?user=argnta&theme=default&hide_border=true" />
-</picture>
+![Contribution history rendered as a growing bonsai](output/bonsai-growth.gif)
 
-<br>
-<br>
-
-<a href="https://github.com/stats-organization/github-stats-extended">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=argnta&layout=compact&card_width=495&hide_border=true&langs_count=6&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
-    <img alt="Top languages" src="https://github-stats-extended.vercel.app/api/top-langs/?username=argnta&layout=compact&card_width=495&hide_border=true&langs_count=6" />
-  </picture>
-</a>
+*Contribution history rendered as a growing bonsai.*
 
 </div>
